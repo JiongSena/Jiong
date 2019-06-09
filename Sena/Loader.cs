@@ -9,9 +9,9 @@ namespace Sena
         public static void Load()
         {
             //RoR2.RoR2Application.isModded = true;
-            while (BaseObject = UnityEngine.GameObject.Find("Sena"))
+            while (BaseObject = UnityEngine.GameObject.Find("Risk Of Shame"))
                 UnityEngine.GameObject.Destroy(BaseObject);
-            BaseObject = new UnityEngine.GameObject("Sena");
+            BaseObject = new UnityEngine.GameObject("Risk Of Shame");
             UnityEngine.Object.DontDestroyOnLoad(BaseObject);
             BaseObject.SetActive(false);
             var types = Assembly.GetExecutingAssembly().GetTypes().ToList().Where(t => t.BaseType == typeof(UnityEngine.MonoBehaviour) && !t.IsNested);
