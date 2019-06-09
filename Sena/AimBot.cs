@@ -14,9 +14,9 @@ namespace Sena
         }
         void OnDisable()
         {
-            EntityStates.FireNailgun.spreadPitchScale = 5f;
+            EntityStates.FireNailgun.spreadPitchScale = 0.5f;
             EntityStates.FireNailgun.spreadYawScale = 1f;
-            EntityStates.FireNailgun.spreadBloomValue = 2f;
+            EntityStates.FireNailgun.spreadBloomValue = 0.2f;
         }
         void Update()
         {
