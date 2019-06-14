@@ -130,7 +130,7 @@ namespace Sena
             RoR2.LocalUserManager.GetFirstLocalUser().cachedMasterController.master.money = 10000000;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseMoveSpeed = 20.0f;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseJumpCount = 9;
-
+            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseAttackSpeed = 100;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.healthComponent.godMode= true;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseDamage = 10000000;
 
