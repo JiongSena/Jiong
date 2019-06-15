@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class ItemSpawner : MonoBehaviour
+    public class 物品生成 : MonoBehaviour
     {
         static Int32 Margin = 5;
         static Int32 ItemWidth = 400;
