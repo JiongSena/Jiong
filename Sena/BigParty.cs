@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class BigParty : MonoBehaviour
+    public class 测试 : MonoBehaviour
     {
         List<UnityEngine.GameObject> Locks = new List<GameObject>();
         private void OnEnable()
