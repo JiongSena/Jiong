@@ -2,7 +2,7 @@
 
 namespace Sena
 {
-    public class SkipCurrentLevel : MonoBehaviour
+    public class 进入下一个场景 : MonoBehaviour
     {
         private void OnEnable()
         {
