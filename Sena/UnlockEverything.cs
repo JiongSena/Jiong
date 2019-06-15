@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class UnlockEverything : MonoBehaviour
+    public class 解锁全部成就 : MonoBehaviour
     {
         private void OnEnable()
         {
