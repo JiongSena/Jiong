@@ -2,7 +2,7 @@
 
 namespace Sena
 {
-    public class AlwaysSprint : MonoBehaviour
+    public class 自动冲刺 : MonoBehaviour
     {
         private void Update()
         {
