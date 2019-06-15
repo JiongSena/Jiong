@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class AdvancedTooltips : MonoBehaviour
+    public class 高级工具提示 : MonoBehaviour
     {
         void OnEnable()
         {
