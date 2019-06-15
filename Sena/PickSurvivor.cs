@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class PickSurvivor : MonoBehaviour
+    public class 更换角色 : MonoBehaviour
     {
         static Int32 Margin = 5;
         static Int32 CharacterWidth = 400;
