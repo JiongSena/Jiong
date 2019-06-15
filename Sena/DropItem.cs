@@ -9,7 +9,7 @@ using UnityEngine.Networking;
 
 namespace Sena
 {
-    public class DropItem : MonoBehaviour
+    public class 丢弃物品 : MonoBehaviour
     {
         const Int16 HandleId = 72;
         class DropItemPacket : MessageBase
