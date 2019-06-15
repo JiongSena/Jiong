@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class ParticipatingPlayers : MonoBehaviour
+    public class 增加一个虚拟玩家 : MonoBehaviour
     {
         void OnEnable()
         {
