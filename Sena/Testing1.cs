@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class 超级属性 : MonoBehaviour
+    public class 超级属性2 : MonoBehaviour
     {
         T CopyComponent<T>(T original, GameObject destination) where T : Component
         {
