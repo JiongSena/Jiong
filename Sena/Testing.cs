@@ -132,7 +132,7 @@ namespace Sena
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseJumpCount = 100;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseAttackSpeed = 100;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.healthComponent.godMode= true;
-            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseDamage = 10000000;
+            //RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseDamage = 10000000;
 
             /*var sb = new StringBuilder();
             var chests = UnityEngine.Object.FindObjectsOfType<RoR2.ChestBehavior>();
