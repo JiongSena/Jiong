@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class 自动瞄准 : MonoBehaviour
+    public class 全屏自动瞄准 : MonoBehaviour
     {
         void OnEnable()
         {
