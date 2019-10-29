@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Sena
 {
-    public class 超级属性 : MonoBehaviour
+    public class 全属性 : MonoBehaviour
     {
         T CopyComponent<T>(T original, GameObject destination) where T : Component
         {
@@ -129,10 +129,10 @@ namespace Sena
 
             RoR2.LocalUserManager.GetFirstLocalUser().cachedMasterController.master.money = 10000000;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseMoveSpeed = 20.0f;
-            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseJumpCount = 100;
-            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseAttackSpeed = 100;
+            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseJumpCount = 999;
+            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseAttackSpeed = 999;
             RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.healthComponent.godMode= true;
-            //RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseDamage = 10000000;
+            RoR2.LocalUserManager.GetFirstLocalUser().cachedBody.baseDamage = 10000000;
 
             /*var sb = new StringBuilder();
             var chests = UnityEngine.Object.FindObjectsOfType<RoR2.ChestBehavior>();
