@@ -24,7 +24,7 @@ namespace Sena
         {
             ItemScrollPos = GUILayout.BeginScrollView(ItemScrollPos);
             {
-                for (int i = (int)RoR2.EquipmentIndex.Saw; i < (int)RoR2.EquipmentIndex.Count; i++)
+                for (int i = (int)RoR2.EquipmentIndex.CommandMissile; i < (int)RoR2.EquipmentIndex.Count; i++)
                 {
                     var def = RoR2.EquipmentCatalog.GetEquipmentDef((RoR2.EquipmentIndex)i);
                     if (GUILayout.Button(RoR2.Language.GetString(def.nameToken) + " : " + (RoR2.EquipmentIndex)i))
