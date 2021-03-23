@@ -11,7 +11,7 @@ namespace Sena
 {
     public class 丢弃物品 : MonoBehaviour
     {
-        const Int16 HandleId = 72;
+        const Int16 HandleId = 99;
         class DropItemPacket : MessageBase
         {
             public GameObject Player;
